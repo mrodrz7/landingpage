@@ -17,7 +17,8 @@
 .three,
 .ten,
 .eleven,
-.twelve {
+.twelve,
+.signup-container {
   background: #1f2937;
 }
 
@@ -115,6 +116,16 @@ figcaption {
   margin-bottom: 30px;
 }
 
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.form-container .signup-container {
+  text-align: center;
+}
+
 .testimonial {
   font-size: 36px;
   font-weight: lighter;
@@ -130,4 +141,42 @@ figcaption {
   text-align: right;
   font-size: 20px;
   margin-right: 10px;
+}
+
+.form-container .signup-container,
+.button-container {
+  background: #3882f6;
+}
+
+.button-container button {
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 275px;
+  font-size: 20px;
+}
+
+.signup-container .signup-main {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.signup-main {
+  margin-left: 200px;
+}
+
+.signup-sub {
+  margin-left: 250px;
+  color: #e5e7eb;
+}
+
+.footer-container {
+  background: #1f2937;
+}
+
+footer {
+  text-align: center;
+  color: #e5e7eb;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
